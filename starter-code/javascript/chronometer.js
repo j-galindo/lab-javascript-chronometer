@@ -1,10 +1,14 @@
 class Chronometer {
-  constructor() {}
-  // startClick() {}
-  // getMinutes() {}
-  // getSeconds() {}
-  // twoDigitsNumber() {}
-  // stopClick() {}
-  // resetClick() {}
-  // splitClick() {}
+
+    constructor() {
+        this.currentTime = 0;
+    }
+
+    startClick() {}
+        // getMinutes() {}
+        // getSeconds() {}
+        // twoDigitsNumber() {}
+        // stopClick() {}
+        // resetClick() {}
+        // splitClick() {}
 }
