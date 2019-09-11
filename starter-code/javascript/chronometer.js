@@ -5,15 +5,22 @@ class Chronometer {
     }
 
     startClick() {
-        this.intervalId = setInterval(function() { this.currentTime++ }, 1000);
+        this.intervalId = setInterval(function() { this.currentTime += 1 }, 1000);
     }
     getMinutes() {
-            return this.currentTime;
-        }
-        // getSeconds() {}
-        // twoDigitsNumber() {}
-        // stopClick() {}
-        // resetClick() {}
-        // splitClick() {}
+        return this.currentTime;
+    }
+    getSeconds() {
+        return this.currentTime;
+    }
+    twoDigitsNumber() {
+        return this.currentTime.toString;
+    }
+    stopClick() {
+
+    }
+    resetClick() {
+        clearInterval()
+    }
+    splitClick() {}
 }
-Chronometer = new Chronometer.startClick();
