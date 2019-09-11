@@ -4,7 +4,9 @@ class Chronometer {
         this.currentTime = 0;
     }
 
-    startClick() {}
+    startClick() {
+            this.intervalId = setInterval(function() { this.currentTime++ }, 1000);
+        }
         // getMinutes() {}
         // getSeconds() {}
         // twoDigitsNumber() {}
